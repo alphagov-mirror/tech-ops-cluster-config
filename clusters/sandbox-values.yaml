@@ -36,7 +36,7 @@ egressSafelist:
       number: 443
       protocol: TLS
     location: MESH_EXTERNAL
-    resolution: DNS
+    resolution: NONE
 
 - name: verify-connector-sandbox
   service:
